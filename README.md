@@ -1,3 +1,3 @@
-# Simple TodoList
+# Simple Todo List
 
 Simple Laravel Todolist App
