@@ -1,3 +1,3 @@
 # Simple Todo List
 
-Simple Laravel 9 Todolist App
+Simple Todolist App with Laravel 9
