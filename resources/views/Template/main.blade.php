@@ -9,6 +9,9 @@
     <!-- Bootstrap CSS -->
     <link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="{{ asset('CSS/style.css') }}" rel="stylesheet">
+
 </head>
 <body>
 

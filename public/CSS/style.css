@@ -1,0 +1,44 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+/* Base styling */
+:root{
+    --primary-color:#0C092f;
+    --secondary-color:#0D6EFD;
+    --tertiary-color:#f3f3f3;
+}
+
+p,h1,h2,h3,h4,h5,h6,span{
+    color: var(--primary-color);
+}
+
+button:focus{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+.p-100{
+    padding: 100px 0;
+}
+
+.gradient{
+    background-color: rgba(249, 249, 249);
+    background: linear-gradient(90deg, rgba(249, 249, 249) 0%, rgba(24, 184, 241, 1) 0%, rgba(109, 0, 250, 1) 100%);
+}
+
+/* Navbar Styling */
+.nav-item{
+    margin-left: 1rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+
+.navbar-nav .nav-item .nav-link i{
+    color: var(--secondary-color);
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: var(--tertiary-color);
+}
